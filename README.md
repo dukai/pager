@@ -6,8 +6,14 @@ The best project ever.
 Install the module with: `npm install pager`
 
 ```javascript
-var pager = require('pager');
-pager.awesome(); // "awesome"
+var Pager = require('pager');
+var pager = new Pager({
+  container: '#pager', //显示分页控件的容器
+  perpage: 10 //每页显示多少条
+});
+pager.on('goto', function(e){
+  console.log(e.page);
+}); // 当点击时触发的事件
 ```
 
 ## Documentation
