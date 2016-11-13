@@ -1,0 +1,32 @@
+{
+  "name": "pager",
+  "description": "pager components.",
+  "main": "pager.js",
+  "authors": [
+    "dukai"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "pager"
+  ],
+  "homepage": "https://github.com/dukai/pager",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test/lib/",
+    "test",
+    "tests",
+    "build.js",
+    "Gruntfile.js"
+  ],
+  "dependencies": {
+    "dtools": "https://github.com/dukai/dtools.git",
+    "template": "https://github.com/dukai/template.git"
+  },
+  "devDependencies": {
+    "requirejs": "^2.2.0",
+    "text": "requirejs/text#^2.0.15",
+    "jquery": "2.2.3"
+  }
+}
